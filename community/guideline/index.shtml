@@ -1,0 +1,161 @@
+<!--#include virtual="/inc/new_meta.html" -->
+<link href="style.css" rel="stylesheet" />
+<title>Mozilla 台灣社群</title>
+<meta name="description" content="Mozilla 全球社群依循 Mozilla 宣言，致力於打造更開放自由的網路、提升人們的網路體驗、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的在地參與可辦不到！">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://mozilla.tw">
+<meta property="og:image" content="http://moztw.org/images/foxmosa-icon.gif">
+<meta property="og:site_name" content="Mozilla 台灣社群">
+<meta property="og:description" content="Mozilla 全球社群依循 Mozilla 宣言，致力於打造更開放自由的網路、提升人們的網路體驗、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的在地參與可辦不到！">
+<script>
+  jQuery(function () {
+    var poster, video, iframe, $win;
+
+    poster = $('#video-poster');
+    video = $('#video');
+    $win = $(window);
+
+    poster.on('click', function () {
+      if (video.hasClass('show')) {
+        video.removeClass('show');
+      } else {
+        video.addClass('show');
+      }
+    });
+
+    iframe = video.find('iframe');
+
+    $win.resize(function () {
+      var width = video.width() - 20;
+      iframe.height(width / 16 * 9);
+    });
+  });
+</script>
+<!--#include virtual="/inc/new_header.html" -->
+
+<div id="main-feature">
+  <h1>Mozilla</h1>
+  <h3> 社群參與指引</h3>
+</div>
+
+<section id="key-point">
+  <header class="hide">
+    <h2>Mozilla 全球社群</h2>
+  </header>
+  <p>內容譯自
+    <a href="https://www.mozilla.org/en-US/about/governance/policies/participation/" target="_blank">
+      https://www.mozilla.org/en-US/about/governance/policies/participation/ </a></p>
+</section>
+
+<section id="guide">
+  <h2>社群參與指引</h2>
+  <div class="container">
+
+    <section>
+      <p>本指引描述 Mozilla 建立之社群型態，並適用於：</p>
+      <ul>
+        <li>反騷擾、反歧視政策。<a href="#ps">[1]</a>其中羅列了一些 Mozilla 員工的保障與義務，制定時也考慮了特定司法管轄區的法律定義和要求。</li>
+        <li>Mozilla 團體關係惡化和發生衝突的解決方法。</li>
+      </ul>
+      <p>本指引涵蓋了作為 Mozilla 社群成員，在 Mozilla 相關的論壇、郵件清單、wiki、網站、IRC 頻道、程式錯誤、活動、集會或個人對個人之種種 Mozilla 相關的對應行為。</p>
+      <p>社區參與指引由兩個部分組成——一項是包容性和多元化，另外一項則是稱作「互動風格」的說明，闡釋我們希望如何對待彼此。不論上述哪一項，都是我們在打造社群時相當注重的部分。</p>
+    </section>
+
+  </div>
+</section>
+
+<div class="divider" style="margin-top: 0;"></div>
+
+<section id="">
+  <h2>多元化、包容性</h2>
+  <div class="container">
+
+    <section>
+      <ul>
+        <li>Mozilla 的專案歡迎來自各方的人士，並鼓勵任何人參與。無論您怎麼定義自己，或別人怎麼看待您，我們都歡迎。我們歡迎所有人，即使有不同年齡、文化、種族、性別、性別認同、語言、膚色、性傾向、地理位置與宗教觀點，以有建設性的方式與我們互動、參與貢獻。</li>
+        <li>Mozilla 上的活動都應包容所有人，並應支持多樣性。</li>
+        <li>與 Mozilla 的包容性與多元化政策相左之狀況可能在活動或組織中發生。諸如下列情況：
+          <ul>
+            <li>（一）支持排他性的行為不得帶入 Mozilla 的活動。</li>
+            <li>（二）即使是非 Mozilla 的活動，支持排他性的行為不應出現於 Mozilla 的場域。（即使不是在 Mozilla 的空間，但是由我們主辦的活動也不應出現）。</li>
+            <li>（三）即使（一）、（二）成立，其他摩茲人應視此為私人行為，與 Mozilla 無關。</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+  </div>
+
+</section>
+
+<div class="divider" style="margin-top: 0;"></div>
+
+<section>
+  <h2>提出與多元化、包容性相關的問題</h2>
+  <div class="container">
+
+    <section>
+      <p>如果您認為您遇到不符合上述政策的做法，請聯繫 inclusion@mozilla.com ，此信箱將通知我們的人力資源副總裁、多元與融合（D & I）專案經理、以及員工關係專員。他們可以提供一系列的資源——從個人諮詢，到其他的社群資源，當然也包括 Mozilla 組織在法務面應該處理的議題。</p>
+      <p>我們不允許刻意排除他人參與 Mozilla 活動的行為，我們將將妥善處理這類行為。很難想像要怎麼無意排擠他人，但若真的發生，我們也必須清楚了解日後要如何避免。我們推測當事情由私領域轉至公領域時可能會發生這類問題，但我們˙也應解決、釐清。</p>
+    </section>
+
+  </div>
+
+</section>
+
+<div class="divider" style="margin-top: 0;"></div>
+
+<section>
+  <h2>互動風格</h2>
+  <div class="container">
+
+    <section>
+      <p>此章節將更廣泛的說明我們如何對待彼此。這裡提到的每個面向，都是我們正在打造社群的重要一部分。</p>
+      <ul>
+        <li>彼此尊重。即使無法完全同意對方，也不應該因此態度惡劣。我們不時都會遇到一些挫折，但我們不該讓這類失望轉變成人身攻擊。如果社群中的成員常感到不安或遭受威脅，將很難有生產力。</li>
+        <li>人人都需要雅量、試著理解其他看法。我們的目標不該是「贏」得每次分歧或爭執。更有生產力的目標，是包容使我們擁有更優秀創意的各種想法。真正的「贏」，是使我們的成品更加豐富和有力的不同觀點。</li>
+        <li>拒絕暴力威嚇。</li>
+        <li>帶起身邊的人，讓其他人也能說些話。</li>
+        <li>追求卓越。要創造優越的產品，社群本當要欣欣向榮、充滿活力。彼此尊重不意味著應該虛偽地討好每位持不同意見者，或妥協我們該做的事。</li>
+        <li>不要指望每件事情都會符合期待。</li>
+      </ul>
+    </section>
+
+  </div>
+
+</section>
+
+<div class="divider" style="margin-top: 0;"></div>
+
+<section>
+  <h2>與互動風格的相關議題</h2>
+  <div class="container">
+
+    <section>
+      <ul>
+        <li>衝突難免會發生。有時候我們對於「什麼是尊重」這件事會有不同的看法。有時用幽默的方式應對可能會適得其反。</li>
+        <li>面對批評時，我們可能會去討論這個批評是否合理。當我們不同意、或認為我們還有改進的必要，我們*務求*直言不諱。我們不能用花俏的糖衣包裝嚴峻的事實真相。要做到合理的直言不諱很困難，要在看似沒人聽進建言時仍堅持這麼做更不容易，而在聽到這些批判就是針對自己時，要做好更是難上加難。我們需要誠實、直率、以及尊重。這需要不少努力。如果您討論相關議題時需要協助，再次歡迎您聯繫 inclusion@mozilla.com。</li>
+      </ul>
+    </section>
+
+  </div>
+
+</section>
+
+<div class="divider" style="margin-top: 0;"></div>
+
+<section id="ps">
+  <p>[1]反騷擾政策<a href="https://mana.mozilla.org/wiki/display/PR/Policy">在此</a>提供 Mozilla 職員存取。</p>
+</section>
+
+<div class="divider" style="margin-top: 0;"></div>
+
+<form id="mailinglist" class="billboard" action="https://groups.google.com/forum/#!forum/moztw-general/join">
+  <h3>訂閱社群最新討論資訊</h3>
+  <input type="email" name="email" placeholder="YOUR EMAIL HERE" />
+  <input type="submit" class="button" value="訂閱 »" />
+</form>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<!--#include virtual="/inc/new_footer.html" -->
